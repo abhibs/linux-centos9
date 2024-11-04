@@ -1,0 +1,22 @@
+[abhiram@localhost Linux - Centos 9]$ pwd
+/home/abhiram/Documents/Linux - Centos 9
+[abhiram@localhost Linux - Centos 9]$ cd /
+[abhiram@localhost /]$ ls
+afs  boot  etc   lib    media  opt   root  sbin  sys  usr
+bin  dev   home  lib64  mnt    proc  run   srv   tmp  var
+[abhiram@localhost /]$ cd var
+[abhiram@localhost var]$ ls
+account  crash  ftp       lib    log   opt       spool  yp
+adm      db     games     local  mail  preserve  tmp
+cache    empty  kerberos  lock   nis   run       www
+[abhiram@localhost var]$ cd www
+[abhiram@localhost www]$ ls
+cgi-bin  html
+[abhiram@localhost www]$ cd html
+[abhiram@localhost html]$ ls
+[abhiram@localhost html]$ cd /
+[abhiram@localhost /]$ ls
+afs  boot  etc   lib    media  opt   root  sbin  sys  usr
+bin  dev   home  lib64  mnt    proc  run   srv   tmp  var
+[abhiram@localhost /]$ cd var/www/html
+[abhiram@localhost html]$
