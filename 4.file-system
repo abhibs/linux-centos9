@@ -1,0 +1,26 @@
+cd /
+[abhiram@localhost /]$ ls -l
+total 28
+dr-xr-xr-x.   2 root root    6 Jun 25 19:53 afs
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 bin -> usr/bin
+dr-xr-xr-x.   5 root root 4096 Nov  4 12:19 boot
+drwxr-xr-x.  20 root root 3300 Nov  4 12:19 dev
+drwxr-xr-x. 135 root root 8192 Nov  4 12:57 etc
+drwxr-xr-x.   3 root root   21 Nov  4 12:20 home
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 lib -> usr/lib
+lrwxrwxrwx.   1 root root    9 Jun 25 19:53 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 media
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 mnt
+drwxr-xr-x.   3 root root   20 Nov  4 13:02 opt
+dr-xr-xr-x. 350 root root    0 Nov  4 12:19 proc
+dr-xr-x---.   6 root root 4096 Nov  4 13:02 root
+drwxr-xr-x.  47 root root 1300 Nov  4 13:47 run
+lrwxrwxrwx.   1 root root    8 Jun 25 19:53 sbin -> usr/sbin
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 srv
+dr-xr-xr-x.  13 root root    0 Nov  4 12:19 sys
+drwxrwxrwt.  57 root root 4096 Nov  4 14:58 tmp
+drwxr-xr-x.  12 root root  144 Nov  4 11:44 usr
+drwxr-xr-x.  21 root root 4096 Nov  4 12:09 var
+[abhiram@localhost /]$ ls
+afs  boot  etc   lib    media  opt   root  sbin  sys  usr
+bin  dev   home  lib64  mnt    proc  run   srv   tmp  var
