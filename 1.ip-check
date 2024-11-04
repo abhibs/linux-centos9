@@ -1,0 +1,52 @@
+    1  code .
+    2  sudo dnf install wget gpg
+    3  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+    4  sudo sh -c 'echo "[code]
+    5  sudo sh -c 'echo "[code]"'
+    6  sudo dnf install code
+    7  sudo dnf update code
+    8  code 
+    9  sudo dnf clean all
+   10  sudo dnf install code
+   11  code 
+   12  ls
+   13  clear
+   14  cd Downloads/
+   15  ls
+   16  sudo dnf install code-1.95.1-1730355393.el8.x86_64.rpm
+   17  clear
+   18  cd ..
+   19  ls
+   20  clear
+   21  sudo dnf update
+   22  clear
+   23  sudo dnf install git
+   24  git --version
+   25  git config --global user.name "abhibs"
+   26  git config --global user.email "abhirambs97@gmail.com"
+   27  clear
+   28  git --version
+   29  wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+   30  sudo dnf install google-chrome-stable_current_x86_64.rpm
+   31  clear
+   32  cd Downloads/
+   33  wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+   34  cd ..
+   35  ls
+   36  rm google-chrome-stable_current_x86_64.rpm 
+   37  ls
+   38  clear
+   39  cd Downloads/
+   40  ls
+   41  clear
+   42  ls
+   43  sudo dnf install google-chrome-stable_current_x86_64.rpm
+   44  ifconfig
+   45  ls
+   46  clear
+   47  ls
+   48  cd Documents/
+   49  cd Linux\ -\ Centos\ 9/
+   50  clear
+   51  ifconfig
+   52  history > 1.ip-check
