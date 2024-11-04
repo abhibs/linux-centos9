@@ -1,0 +1,41 @@
+[abhiram@localhost Linux - Centos 9]$ pwd
+/home/abhiram/Documents/Linux - Centos 9
+[abhiram@localhost Linux - Centos 9]$ cd ..
+[abhiram@localhost Documents]$ cd ..
+[abhiram@localhost ~]$ ls 
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ ls -l
+total 0
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Desktop
+drwxr-xr-x. 3 abhiram abhiram 30 Nov  4 13:10 Documents
+drwxr-xr-x. 2 abhiram abhiram 98 Nov  4 13:00 Downloads
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Music
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Pictures
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Public
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Templates
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Videos
+[abhiram@localhost ~]$ touch abhi.txt
+[abhiram@localhost ~]$ ls -l
+total 0
+-rw-r--r--. 1 abhiram abhiram  0 Nov  4 16:42 abhi.txt
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Desktop
+drwxr-xr-x. 3 abhiram abhiram 30 Nov  4 13:10 Documents
+drwxr-xr-x. 2 abhiram abhiram 98 Nov  4 13:00 Downloads
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Music
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Pictures
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Public
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Templates
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Videos
+[abhiram@localhost ~]$ vi abhi.txt
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+karnataka
+577226
+[abhiram@localhost ~]$ cd abhi.txt
+bash: cd: abhi.txt: Not a directory
