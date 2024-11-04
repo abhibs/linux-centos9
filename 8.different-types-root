@@ -1,0 +1,20 @@
+[abhiram@localhost Linux - Centos 9]$ pwd
+/home/abhiram/Documents/Linux - Centos 9
+[abhiram@localhost Linux - Centos 9]$ cd ..
+[abhiram@localhost Documents]$ cd ..
+[abhiram@localhost ~]$ ls
+abhi.txt  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ su -
+Password: 
+Last login: Mon Nov  4 17:24:10 IST 2024 on pts/1
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# exit
+logout
+[abhiram@localhost ~]$ cd /
+[abhiram@localhost /]$ pwd
+/
+[abhiram@localhost /]$ ls
+afs  bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
