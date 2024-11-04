@@ -1,0 +1,115 @@
+abhiram@localhost Linux - Centos 9]$ pwd
+/home/abhiram/Documents/Linux - Centos 9
+[abhiram@localhost Linux - Centos 9]$ cd ..
+[abhiram@localhost Documents]$ pwd
+/home/abhiram/Documents
+[abhiram@localhost Documents]$ cd ..
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ ls -l
+total 0
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Desktop
+drwxr-xr-x. 3 abhiram abhiram 30 Nov  4 13:10 Documents
+drwxr-xr-x. 2 abhiram abhiram 98 Nov  4 13:00 Downloads
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Music
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Pictures
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Public
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Templates
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Videos
+[abhiram@localhost ~]$ su -
+Password: 
+Last login: Mon Nov  4 16:06:16 IST 2024 on pts/0
+[root@localhost ~]# ls
+anaconda-ks.cfg
+[root@localhost ~]# ls -l
+total 4
+-rw-------. 1 root root 898 Nov  4 11:49 anaconda-ks.cfg
+[root@localhost ~]# cd /
+[root@localhost /]# ls
+afs  bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+[root@localhost /]# ls -l
+total 32
+dr-xr-xr-x.   2 root root    6 Jun 25 19:53 afs
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 bin -> usr/bin
+dr-xr-xr-x.   5 root root 4096 Nov  4 12:19 boot
+drwxr-xr-x.  20 root root 3300 Nov  4 12:19 dev
+drwxr-xr-x. 135 root root 8192 Nov  4 12:57 etc
+drwxr-xr-x.   3 root root   21 Nov  4 12:20 home
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 lib -> usr/lib
+lrwxrwxrwx.   1 root root    9 Jun 25 19:53 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 media
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 mnt
+drwxr-xr-x.   3 root root   20 Nov  4 13:02 opt
+dr-xr-xr-x. 353 root root    0 Nov  4 12:19 proc
+dr-xr-x---.   6 root root 4096 Nov  4 16:19 root
+drwxr-xr-x.  47 root root 1300 Nov  4 13:47 run
+lrwxrwxrwx.   1 root root    8 Jun 25 19:53 sbin -> usr/sbin
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 srv
+dr-xr-xr-x.  13 root root    0 Nov  4 12:19 sys
+drwxrwxrwt.  58 root root 4096 Nov  4 16:19 tmp
+drwxr-xr-x.  12 root root  144 Nov  4 11:44 usr
+drwxr-xr-x.  21 root root 4096 Nov  4 12:09 var
+[root@localhost /]# cd boot
+[root@localhost boot]# ls
+config-5.14.0-513.el9.x86_64                             loader
+config-5.14.0-522.el9.x86_64                             symvers-5.14.0-513.el9.x86_64.gz
+efi                                                      symvers-5.14.0-522.el9.x86_64.gz
+grub2                                                    System.map-5.14.0-513.el9.x86_64
+initramfs-0-rescue-c76645f998a344e49da722d7345c9da4.img  System.map-5.14.0-522.el9.x86_64
+initramfs-5.14.0-513.el9.x86_64.img                      vmlinuz-0-rescue-c76645f998a344e49da722d7345c9da4
+initramfs-5.14.0-513.el9.x86_64kdump.img                 vmlinuz-5.14.0-513.el9.x86_64
+initramfs-5.14.0-522.el9.x86_64.img                      vmlinuz-5.14.0-522.el9.x86_64
+initramfs-5.14.0-522.el9.x86_64kdump.img
+[root@localhost boot]# ls -l
+total 297088
+-rw-r--r--. 1 root root   226340 Sep 27 13:28 config-5.14.0-513.el9.x86_64
+-rw-r--r--. 1 root root   226238 Oct 20 18:42 config-5.14.0-522.el9.x86_64
+drwxr-xr-x. 3 root root       17 Nov  4 11:45 efi
+drwx------. 5 root root       97 Nov  4 12:23 grub2
+-rw-------. 1 root root 79162939 Nov  4 11:47 initramfs-0-rescue-c76645f998a344e49da722d7345c9da4.img
+-rw-------. 1 root root 37200662 Nov  4 11:49 initramfs-5.14.0-513.el9.x86_64.img
+-rw-------. 1 root root 34447872 Nov  4 11:57 initramfs-5.14.0-513.el9.x86_64kdump.img
+-rw-------. 1 root root 56644287 Nov  4 12:10 initramfs-5.14.0-522.el9.x86_64.img
+-rw-------. 1 root root 34842112 Nov  4 12:19 initramfs-5.14.0-522.el9.x86_64kdump.img
+drwxr-xr-x. 3 root root       21 Nov  4 11:45 loader
+lrwxrwxrwx. 1 root root       45 Nov  4 11:45 symvers-5.14.0-513.el9.x86_64.gz -> /lib/modules/5.14.0-513.el9.x86_64/symvers.gz
+lrwxrwxrwx. 1 root root       45 Nov  4 11:57 symvers-5.14.0-522.el9.x86_64.gz -> /lib/modules/5.14.0-522.el9.x86_64/symvers.gz
+-rw-------. 1 root root  8910114 Sep 27 13:28 System.map-5.14.0-513.el9.x86_64
+-rw-------. 1 root root  8929241 Oct 20 18:42 System.map-5.14.0-522.el9.x86_64
+-rwxr-xr-x. 1 root root 14514216 Nov  4 11:46 vmlinuz-0-rescue-c76645f998a344e49da722d7345c9da4
+-rwxr-xr-x. 1 root root 14514216 Sep 27 13:28 vmlinuz-5.14.0-513.el9.x86_64
+-rwxr-xr-x. 1 root root 14571560 Oct 20 18:42 vmlinuz-5.14.0-522.el9.x86_64
+[root@localhost boot]# cd ..
+[root@localhost /]# ls
+afs  bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+[root@localhost /]# cd home
+[root@localhost home]# ls
+abhiram
+[root@localhost home]# cd abhiram
+[root@localhost abhiram]# ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[root@localhost abhiram]# ls -l
+total 0
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Desktop
+drwxr-xr-x. 3 abhiram abhiram 30 Nov  4 13:10 Documents
+drwxr-xr-x. 2 abhiram abhiram 98 Nov  4 13:00 Downloads
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Music
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Pictures
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Public
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Templates
+drwxr-xr-x. 2 abhiram abhiram  6 Nov  4 12:20 Videos
+[root@localhost abhiram]# cd Documents/
+[root@localhost Documents]# ls -l
+total 0
+drwxr-xr-x. 3 abhiram abhiram 167 Nov  4 15:39 'Linux - Centos 9'
+[root@localhost Documents]# cd Linux\ -\ Centos\ 9/
+[root@localhost Linux - Centos 9]# ls -l
+total 40
+-rw-r--r--. 1 abhiram abhiram   905 Nov  4 13:50 1.ip-check
+-rw-r--r--. 1 abhiram abhiram    22 Nov  4 13:56 2.user-name
+-rw-r--r--. 1 abhiram abhiram    37 Nov  4 14:37 3.host-name
+-rw-r--r--. 1 abhiram abhiram  1200 Nov  4 15:01 4.file-system
+-rw-r--r--. 1 abhiram abhiram 23628 Nov  4 15:12 5.file-system-structure-and-desc
+-rw-r--r--. 1 abhiram abhiram     0 Nov  4 15:39 6.file-system-navigation
